@@ -25,7 +25,7 @@ export const NavBar = () =>{
     <div className = " container flex items-center justify-between">
         <a className="text-xl font-bold text-primary flex items-center">
             <span className="relative z-10">
-                <img src="src/images/myphoto.png" alt="Logo" className="h-30 w-30 rounded-full transition-colors cursor-pointer" />
+                <img src="/images/myphoto.png" alt="Logo" className="h-30 w-30 rounded-full transition-colors cursor-pointer" />
             </span>
         </a>
 
