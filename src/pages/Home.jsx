@@ -7,9 +7,12 @@ import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
 
+
 export const Home = () => {
 
-    return <div className="min-h-screen bg-background text-forground overflow-x-hidden">
+    return (
+    
+    <div className="min-h-screen bg-background text-forground overflow-x-hidden">
         
         <ThemeToggle />
 
@@ -25,6 +28,8 @@ export const Home = () => {
             <Contact />
         </main>
 
-    </div>;
+    </div>
+    
+    )
 }
 
